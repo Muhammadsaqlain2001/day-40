@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(133, 130, 130);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: white;
+    line-height: 10vh;
+}
+.chat-container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    margin: 5vh 0vw;
+}
+.chat-box{
+    width: 22%;
+    padding: 2vh 1vw;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+p{
+    color: green;
+    background-color: aliceblue;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 4vh;
+    padding: .5vh .5vw;
+}
+h5{
+    color: rgb(1, 1, 172);
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    line-height: 5vh;
+}
+
+
+
+.new-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(133, 130, 130);
+    display: flex;
+    align-items: center;
+}
+h6{
+    background-color: aquamarine;
+    padding: .5vh .5vw;
+}
